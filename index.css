@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Segoe UI', Tahoma, 'Geneva', 'Verdana', 'sans-serif';
+    background-color: rgb(238, 244, 244);
+    margin: 0;
+    padding: 0;
+   
+}
+nav {
+    font-family: 'Croissant One', cursive;
+    font-weight: 900;
+    display: flex;
+    font-size: 20px;
+    /* background-color: rgb(62, 113, 216); */
+    padding: 23px;
+    /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
+    height: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(2, 3, 18);
+    transition: all;
+    transition-duration: 500ms;
+    justify-content: space-between;
+    
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    font-size: 24px;
+    height: 50px;
+    width: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 53px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: -8px;
+    margin-left: 162px;
+    margin-top: 1px;
+}
+
+.search input {
+    height: 40px;
+    align-items: center;
+    width: 252px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #555;
+    padding: 16px;
+    border: none;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-left: 19px;
+}
+
+.main{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 600px;
+    width: 1474px;
+}
+
+.heading{
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #d65610;
+    height: 100px;
+    width: 1474px;
+    border-radius: 5px;
+}
+
+p{
+    margin-left: 460px;
+    font-size: 30px;
+}
+
+.hel{
+    margin-top: 30px;
+}
+
+footer{
+    background-color: #d65610;
+}
